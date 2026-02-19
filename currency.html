@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CURRENCY CONVERTER </title>
+    <link rel="stylesheet" href="currency.css" />
+</head>
+<body>
+    <div class="container">
+        <h2> Currency Converter </h2>
+          <div class="input1-container"> 
+            <select class="devise" id="devise1" >
+                <option value="EUR">EUR</option>
+                <option value="USD" selected>USD</option>
+                <option value="GBP">GBP </option>
+                <option value="JPY">JPY </option>
+                <option value="CHF">CHF </option>
+                <option value="CAD">CAD </option>
+                <option value="AUD">AUD</option>
+                <option value="CNY">CNY</option>
+                <option value="HKD">HKD </option>
+                <option value="NZD">NZD </option>
+                <option value="KRW">KRW</option>
+                <option value="SGD">SGD </option>
+                <option value="INR">INR </option>
+                <option value="BRL">BRL </option>
+                <option value="RUB">RUB </option>
+            </select>
+                <input class="input" id="input1" type="number" value="1" min="0">
+            </div>
+        <br/>
+
+            <div class="input2-container">
+                <select class="devise" id="devise2" >
+                    <option value="EUR" selected>EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP </option>
+                    <option value="JPY">JPY </option>
+                    <option value="CHF">CHF </option>
+                    <option value="CAD">CAD </option>
+                    <option value="AUD">AUD</option>
+                    <option value="CNY">CNY</option>
+                    <option value="HKD">HKD </option>
+                    <option value="NZD">NZD </option>
+                    <option value="KRW">KRW</option>
+                    <option value="SGD">SGD </option>
+                    <option value="INR">INR </option>
+                    <option value="BRL">BRL </option>
+                    <option value="RUB">RUB </option>
+            </select>
+                <input class="input" id="input2" type="number" disabled>
+            </div>
+
+
+        
+
+         <div class="showvalue"> 1 USD = 123 BRL </div>
+    </div>
+    
+<script src="currency.js"></script>
+
+
+
+</body>
+</html>
